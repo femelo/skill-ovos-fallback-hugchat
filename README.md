@@ -39,7 +39,7 @@ The default persona is `You are a helpful voice assistant with a friendly tone a
 
 ## Configurations
 
-The skill utilizes the `~/.config/mycroft/skills/skill-ovos-fallback-hugchat.openvoiceos/settings.json` file which allows you to configure it.
+The skill utilizes the `~/.config/mycroft/skills/skill-ovos-fallback-hugchat.femelo/settings.json` file which allows you to configure it.
 
 ### Configuration for use with HuggingChat
 
