@@ -102,7 +102,7 @@ class HuggingChatSkill(FallbackSkill):
     def ask_hugchat(self, message):
         if "email" not in self.settings or "password" not in self.settings:
             self.log.error(
-                "HuggingChat not configured yet, please set your API key in %s",
+                "HuggingChat not configured yet, please set your HF email and password in %s",
                 self.settings.path,
             )
             return False  # HuggingChat not configured yet
