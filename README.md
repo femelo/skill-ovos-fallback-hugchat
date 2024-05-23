@@ -2,7 +2,7 @@
 
 When in doubt, ask HuggingChat, powered by [HuggingChat Solver](https://github.com/femelo/ovos-solver-plugin-hugchat-persona).
 
-You need to configure a `email` and `password` for your [Hugging Face](https://huggingface.co) account.
+You need to configure an `email` and `password` for your [Hugging Face](https://huggingface.co) account.
 
 ## About
 
