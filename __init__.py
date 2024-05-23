@@ -100,7 +100,7 @@ class HuggingChatSkill(FallbackSkill):
             self.speak_dialog("gpt_error", data={"name": self.ai_name})
 
     def ask_hugchat(self, message):
-        if "key" not in self.settings:
+        if "email" not in self.settings or "password" not in self.settings:
             self.log.error(
                 "HuggingChat not configured yet, please set your API key in %s",
                 self.settings.path,
