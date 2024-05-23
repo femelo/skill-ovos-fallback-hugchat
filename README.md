@@ -19,7 +19,7 @@ Limitations:
 
 ## Configuration
 
-Under skill settings (`.config/mycroft/skills/skill-ovos-fallback-hugchat.openvoiceos/settings.json`) you can tweak some parameters for HuggingChat.
+Under skill settings (`.config/mycroft/skills/skill-ovos-fallback-hugchat.femelo/settings.json`) you can tweak some parameters for HuggingChat.
 
 | Option          | Value                                                                  | Description                             |
 | --------------- | ---------------------------------------------------------------------- | --------------------------------------- |
