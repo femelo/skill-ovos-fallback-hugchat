@@ -21,17 +21,17 @@ Limitations:
 
 Under skill settings (`.config/mycroft/skills/skill-ovos-fallback-hugchat.femelo/settings.json`) you can tweak some parameters for HuggingChat.
 
-| Option          | Value                                                                  | Description                             |
-| --------------- | ---------------------------------------------------------------------- | --------------------------------------- |
-| `email`         | `your-hf-email`                                                        | Your `email` to access Hugging Face     |
-| `password`      | `your-hf-password`                                                     | Your `password` to access Hugging Face  |
-| `persona`       | `You are a helpful assistant who gives very short but factual answers` | Give a personality to HuggingChat       |
-| `model`         | `llama-3`                                                              | LLM model to use                        |
-| `enable_memory` | `true`                                                                 | Remember the last generated outputs     |
-| `memory_size`   | `15`                                                                   | How many interactions to keep           |
-| `web_search`    | `false`                                                                | Allow assistant to search the web       |
-| `name`          | `AI assistant`                                                         | Name to give to the AI assistant        |
-| `confirmation`  | `true`                                                                 | Spoken confirmation                     |
+| Option          | Value                                                                  | Description                                                   |
+| --------------- | ---------------------------------------------------------------------- | ---------------------------------------                       |
+| `email`         | `your-hf-email`                                                        | Your `email` to access Hugging Face                           |
+| `password`      | `your-hf-password`                                                     | Your `password` to access Hugging Face                        |
+| `persona`       | `You are a helpful assistant who gives very short but factual answers` | Give a personality to HuggingChat                             |
+| `model`         | `llama-3`                                                              | LLM model to use                                              |
+| `enable_memory` | `true`                                                                 | Remember the last generated outputs (*not implemented yet*)   |
+| `memory_size`   | `15`                                                                   | How many interactions to keep                                 |
+| `web_search`    | `false`                                                                | Allow assistant to search the web                             |
+| `name`          | `AI assistant`                                                         | Name to give to the AI assistant                              |
+| `confirmation`  | `true`                                                                 | Spoken confirmation                                           |
 
 Read more about it in the OVOS technical manual, page [persona server](https://openvoiceos.github.io/ovos-technical-manual/persona_server/#compatible-projects)
 
