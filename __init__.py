@@ -97,7 +97,7 @@ class HuggingChatSkill(FallbackSkill):
         except Exception as err:  # speak error on any network issue / no credits etc
             self.log.error(err)
         if not answered:
-            self.speak_dialog("gpt_error", data={"name": self.ai_name})
+            self.speak_dialog("error", data={"name": self.ai_name})
 
     def ask_hugchat(self, message):
         if "email" not in self.settings or "password" not in self.settings:
