@@ -1,3 +1,4 @@
+from ovos_bus_client.message import Message
 from ovos_bus_client.session import SessionManager
 from ovos_solver_hugchat_persona import HuggingChatPersonaSolver
 from ovos_utils import classproperty
@@ -22,6 +23,9 @@ class HuggingChatSkill(FallbackSkill):
             requires_internet=True,
             requires_network=True,
         )
+
+    def can_answer(self, message: Message) -> bool:
+        return True
 
     def initialize(self):
         self.settings.merge(DEFAULT_SETTINGS, new_only=True)
