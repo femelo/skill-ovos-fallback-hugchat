@@ -1,0 +1,10 @@
+{
+    "asking.dialog": [
+        "Deixe-me perguntar ao {name}",
+        "Vou perguntar ao {name}"
+    ],
+    "error.dialog": [
+        "Desculpe, mas houve um error ao perguntar ao {name}.",
+        "{name} n\u00e3o soube responder"
+    ]
+}
